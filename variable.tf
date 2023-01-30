@@ -36,5 +36,5 @@ variable "diskname" {
 }
 variable "disksize" {
     type = number
-    description = "disk size"
+    description = "disk size in gb"
 }
