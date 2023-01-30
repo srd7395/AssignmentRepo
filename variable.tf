@@ -31,7 +31,7 @@ variable "satype" {
     description = "storage account type"
 }
 variable "diskname" {
-    type = string
+    type = list
     description = "disk name"
 }
 variable "disksize" {
