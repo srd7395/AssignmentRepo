@@ -4,6 +4,7 @@ app = "APP"
 rgname = "DISKRG"
 rglocation  ="East US"
 diskname = ["DISK","Datadisk","Logdisk","OSdisk"]
+disksize = "6"
 satype = "Standard_LRS"
 tagging = {
     Env = "Dev"
