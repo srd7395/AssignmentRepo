@@ -30,35 +30,11 @@ variable "satype" {
     type = string
     description = "storage account type"
 }
-variable "diskname1" {
+variable "diskname" {
     type = string
     description = "disk name"
 }
-variable "diskname2" {
-    type = string
-    description = "disk name"
-}
-variable "diskname3" {
-    type = string
-    description = "disk name"
-}
-variable "diskname4" {
-    type = string
-    description = "disk name"
-}
-variable "disksize1" {
+variable "disksize" {
     type = number
     description = "disk size"
-}
-variable "disksize2" {
-    type = number
-    description = "data disk size"
-}
-variable "disksize3" {
-    type = number
-    description = "log disk size"
-}
-variable "disksize4" {
-    type = number
-    description = "os disk size"
 }
