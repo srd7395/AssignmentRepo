@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "rgsd" {
 
  resource "azurerm_managed_disk" "rgsd1" {
   count = length(var.diskname)
-  name = "${local.name_prefix}-${var.diskname[length]}-${count.index}"
+  name = "${local.name_prefix}-${var.diskname[count.index]}"
   resource_group_name = azurerm_resource_group.rgsd.name
   location = azurerm_resource_group.rgsd.location
   storage_account_type = var.satype
